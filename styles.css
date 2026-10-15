@@ -53,32 +53,10 @@ footer {
 
 .brand strong { color: #b07800; }
 
-.eyes {
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
-}
-
-.eyes i {
-  position: relative;
-  width: 18px;
-  height: 25px;
-  border: 2px solid var(--navy);
-  border-radius: 50%;
-  background: white;
-  transform: rotate(4deg);
-}
-
-.eyes i:first-child { width: 16px; height: 22px; transform: rotate(-5deg); }
-.eyes i::after {
-  content: "";
-  position: absolute;
-  right: 3px;
-  bottom: 5px;
-  width: 6px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--navy);
+.brand-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
 }
 
 nav { display: flex; gap: 24px; }
